@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Righteous&display=swap');
+
+:root{
+    -cor-de-fundo: #C7D1C6;
+    -botao-dos-links: #3C5E39;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    flex: auto;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items:start;
+    height: 27vh;
+    box-sizing: border-box;
+    background-color: cadetblue;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+
+}
+.clinica{
+    margin-left: 2%;
+}
+body{
+    height: 100vh;
+    background-color: #C7D1C6;
+}
+.usuario{
+    font-size: 25px;
+    display: block;
+    display: inline-block;
+    text-align: center;
+    margin: 0.5em;
+    font-weight:200;
+    font-family: "Lobster Two", sans-serif;
+
+}
+    .primario{
+        padding-left: 9em;
+        color:black
+    }
+    
+    .secundario{
+        padding-left: 5em;
+        color: black;
+    
+}
+.apresentacao{
+    list-style-type: none;
+}
+.clinica{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 125px;
+    text-align: normal;
+}
+
+.icone{
+    box-sizing: border-box;
+    width: 1%;
+    padding-left: 5em;
+    position: center;
+    align-items: center;
+    
+}
+
+.usuario a:hover {
+    color: rgb(12, 99, 91);
+}
+.usuario a:active {
+    color: purple;
+}
+
+
+.entrada {
+    margin: 20px;
+    text-align: center;
+    font-family: "Nunito", sans-serif;  
+    font-size: medium;  
+}
+.titulo{
+    font-size: 50px;
+}
+.explicacao{
+    font-size: 20px;
+    padding-inline: 50px;
+    text-align: center;
+}
+img{
+    width: 200px;
+}
+.container__botao{
+    background-color: cadetblue;
+    border-radius: 5px;
+    padding: 1.05em;
+    display: block;
+    text-decoration: none;
+    margin-block: 1em;
+    display: inline-block;
+    font-size: x-large;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+}
+
+.container__botao:hover {
+    background-color:rgb(243, 51, 115);
+  }
+
+.botao_secundario{
+    background-color: palevioletred;
+    border: 2px solid var(transparent) ;
+    display: inline-block;
+    margin-left: 4%;
+    color: rgb(173, 38, 38);
+}
+
+.categorias {
+    font-family: "Nunito", sans-serif;
+    font-size: 35px;
+    margin-top: 40px;
+}
+.categorias__consultas {
+    text-align: center;
+    margin: 15px;
+}
+.figuras{
+    margin-top: 1px;
+    display: block;
+    text-align: center;
+}
+
+.lista__consultas {
+    display:flex;
+    list-style-type:none;
+    justify-content: center;
+    font-size: 20px;
+    margin: 1em;
+    margin-right: 1em;
+    text-align: center;
+    font-size: small;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.tipo{
+    background-color: cadetblue;
+    color: black;
+    border-radius: 30px;
+    padding: 0.30em;
+    display: block;
+    text-decoration: none;
+    margin-block: 1em;
+    display: inline-block;
+    font-size: x-large;
+    font-family: "Lobster Two", sans-serif; 
+    font-weight: 100;
+}
+.lista__consultas a:hover{
+    color:#2f6b3e;
+    text-decoration: none;
+}
+
+.titulo__funcao {
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+    margin-left: 0.5em;
+    height: 2em;
+}
+
+.funcionamento {
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    font-size: 35px;
+    text-align:left;
+    margin-left: 60px;
+    margin-right: 100px;
+    text-align:left;
+    box-sizing: border-box;
+    width: 55%;
+}
+.funcionamento__consultas{
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    font-size: 35px;
+    margin-left: 550px;
+    text-align:right;
+    margin-top: 20px;
+    margin-right: 60px;    
+}
+
+.rodape {
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+    padding-left: 155px;
+    padding-right: 155px;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.imagens__rodape {
+    display:flex;
+    list-style-type:none;
+    justify-content: center;
+    margin: 1em;
+    margin-right: 1em;
+    margin-top: 50px;
+    size-adjust: 80px;
+}
+ 
+
+
+  
+  
